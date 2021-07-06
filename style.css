@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+p{  
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+section{
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 5px;
+    text-shadow: 5px 5px 20px black;
+}
+
+.tomato{
+    color: tomato;
+}
+
+.div-width{
+    width: 50%;
+    margin: 30px;
+    padding: 30px;
+}
+.div-width img{
+    width: 100%;
+    padding-left: 50px;
+   
+}
+.button{
+    margin-left:  40%;
+    background-image: linear-gradient(#DD571C,tomato,orange);
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.menu-bar{
+    background-image: linear-gradient(#b1471a,#DD571C,#DD571C);
+
+}
+
+.logo{
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 900;
+    color: white;
+    text-shadow: 5px 5px 20px black ;
+   
+}
+
+.menu-button{
+    text-decoration: none;
+    margin: auto;
+    width: 20%;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.recipie{
+    text-align: center;
+    margin: auto;
+    width: 28%;
+    box-shadow:5px 5px 10px grey ;
+}
+.recipie img{
+    width: 70%;
+    border-radius: 15px;
+    
+}
+
+.cyan{
+    color: rgb(66, 161, 161);
+}
+
+.bottom{
+    text-align: center;
+    width: 10%;
+    margin-left: 100px;
+    padding:100px;
+   
+}
+    
+
+#background-img1{
+    background-image: url(image/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#background-img2{
+    background-image: url(image/background2.jpg);
+    background-repeat: repeat;
+    background-size: 60%;
+}
+
+#background-img3{
+    background-image: url(image/bottom.jpg);
+    background-repeat: no-repeat;
+}
+
+#bottom-shadow{
+    box-shadow: 10px 10px 10px grey;
+    width: auto;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-image: url(image/bottom.jpg);
+    background-repeat: no-repeat;
+}
+#footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+#footer h2{
+    
+    padding-top: 50px;
+}
